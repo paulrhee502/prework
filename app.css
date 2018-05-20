@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:slategray;
+}
+.background{
+    background-image: url("background.JPG");
+    height:300px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.background-text{
+    color: white;
+    font-family: "arial";
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 2.5em;
+}
+td{
+    text-align: center;
+    font-size: 1.25em;
+    width: 20em;
+}
+body{
+    background-color: lightblue;
+}
+.main-heading{
+    text-align: center;
+    color: white;
+}
+.main{
+    padding: 0 30px;
+    font-size: 1.1em;
+    line-height: 2;
+}
+.picture{
+    height:15%;
+    width: 15%;
+    margin: 10px;
+    float:right;
+    text-align: center;
+    color: white;
+    font-family: "arial";
+}
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+    width: 50%;
+}
